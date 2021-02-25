@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {NavLink as Link } from 'react-router-dom'
 import {FaHamburger} from 'react-icons/fa'
 export const Nav = styled.nav`
-    background:red;
+    background:transparent;
     height:80px;
     display:flex;
     justify-content:center;
