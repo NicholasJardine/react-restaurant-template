@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import {NavLink as Link } from 'react-router-dom'
+import {FaHamburger} from 'react-icons/fa'
 export const Nav = styled.nav`
     background:red;
     height:80px;
@@ -21,3 +22,23 @@ cursor:pointer;
     left:25px;
 }
 `;
+
+export const NavIcon = styled.div`
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+    cursor:pointer;
+    color:#fff;
+
+    p{
+        transform: translate(-175%, 100%);
+        font-weight:bold;
+
+    }
+`;
+
+export const Bars = styled(FaHamburger)`
+    font-size: 2rem;
+    transform: translate(-50%, -15%);
+`
