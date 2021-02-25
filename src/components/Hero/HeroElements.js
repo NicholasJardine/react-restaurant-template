@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import ImgBg from '../../images/burger1.jpg'
+import ImgBg from '../../images/burger2.jpg'
 
 
 export const HeroContainer = styled.div`
@@ -7,6 +7,6 @@ export const HeroContainer = styled.div`
     height:100vh;
     background-position:center;
     background-size:cover;
-
+    
 
 `;
