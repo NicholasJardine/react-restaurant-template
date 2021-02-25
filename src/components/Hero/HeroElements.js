@@ -47,30 +47,44 @@ export const HeroH1 = styled.h1`
 
 
     @media screen and (max-width: 768px) {
-        margin-top:280px
+        margin-top:280px;
+        margin-left:-16px;
     }
 `
 
 export const HeroP = styled.p`
     font-size:clamp(2rem, 2.5vw, 3rem);
     margin-bottom: 2rem;
-
+    @media screen and (max-width: 768px) {
+        margin-left:-16px;
+    }
 `
 
 export const HeroBtn = styled.button`
     font-size:1.4rem;
-    padding:1rem 4rem;
+    padding:1rem 2rem;
     border:none;
     background: #e31837;
     color:#fff;
     transition: 0.2s ease-out;
-    width:160px;
-    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:left;
+    border-radius:32px;
 
     &:hover{
         background: #ffc500;
         transition: 0.2s ease-out;
         cursor:pointer;
     }
+    @media screen and (max-width: 768px) {
 
+        p{
+            margin-top:-10px;
+        }
+        margin-left:-16px;
+        height:48px;
+        
+    }
 `;
