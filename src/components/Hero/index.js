@@ -9,7 +9,7 @@ const Hero = () => {
             <Navbar/>
             <HeroContent>
                 <HeroItems>
-                    <HeroH1>Johannesburg's Finest Burgers</HeroH1>
+                <HeroH1>The City's Finest Burgers</HeroH1>
                     <HeroP>Delivered in 45 minutes</HeroP>
                     <HeroBtn><p>Place Order</p></HeroBtn>
                 </HeroItems>

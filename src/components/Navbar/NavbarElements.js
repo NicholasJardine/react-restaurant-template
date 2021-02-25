@@ -20,6 +20,8 @@ cursor:pointer;
     position:absolute;
     top:10px;
     left:25px;
+    font-size: 1.5rem;
+    margin-top:10px;
 }
 `;
 
