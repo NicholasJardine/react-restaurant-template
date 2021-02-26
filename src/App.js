@@ -5,11 +5,14 @@ import { GlobalStyle } from './globalStyles';
 import Hero from './components/Hero';
 import Footer from './components/footer';
 import Sidebar from './components/Sidebar.js';
+import Products from './components/products';
+import {productData} from './components/products/data'
 function App() {
   return (
 <Router>
   <GlobalStyle/>
 <Hero/>
+<Products heading="Take your Pick" data={productData}/>
 <Footer/>
 </Router>  
   
