@@ -138,7 +138,7 @@ import styled from 'styled-components'
 
                     <FooterLinksContainer>
 
-                        <FooterLinksWrapper>
+                        {/* <FooterLinksWrapper>
   
                             <FooterLinkItems>
                                 <FooterLinkTitle>About Us</FooterLinkTitle>
@@ -169,7 +169,7 @@ import styled from 'styled-components'
                     
                             </FooterLinkItems>
 
-                        </FooterLinksWrapper>
+                        </FooterLinksWrapper> */}
                         
                     </FooterLinksContainer>
                     {/* <FooterMotto>Working Together for Success</FooterMotto> */}
