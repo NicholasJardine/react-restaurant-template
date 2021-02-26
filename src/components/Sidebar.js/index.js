@@ -13,7 +13,7 @@ import { FaTimes } from 'react-icons/fa'
 // } from './SidebarElements'
 
 
-const SidebarContainer = styled.div`
+const SidebarContainer = styled.aside`
     position:fixed;
     z-index: 999;
     width:350px;
@@ -21,7 +21,7 @@ const SidebarContainer = styled.div`
     background: #ffc500;
     display:grid;
     align_items:center;
-    right: ${({isOpen}) => (isOpen ? '0' : '-100px')};
+    right: ${({isOpen}) => (isOpen ? '0' : '-1000px')};
     top:0;
     transition: 0.3s ease-in-out;
     @media screen and (max-width:400px){
@@ -103,11 +103,11 @@ const SidebarRoute = styled(Link)`
 }
 `
 
-const Sidebar = () => {
+const Sidebar = ({isOpen, toggle}) => {
     return (
-        <SidebarContainer>
-            <Icon >
-                <CloseIcon />
+        <SidebarContainer isOpen={isOpen} onClick={toggle}>
+            <Icon onClick={toggle}>
+                <CloseIcon onClick={toggle}/>
             </Icon>
                 <SidebarMenu>
                 
