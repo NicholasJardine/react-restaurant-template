@@ -96,7 +96,7 @@ const SidebarRoute = styled(Link)`
     text-align:left;
     border-radius:32px;
     text-decoration:none;
-
+    max-height:48px;
     &:hover{
         background: #ffc500;
         transition: 0.2s ease-out;
