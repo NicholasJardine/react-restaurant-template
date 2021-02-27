@@ -1,6 +1,6 @@
 import product1 from '../../images/burger1.jpg'
-import product2 from '../../images/burger1.jpg'
-import product3 from '../../images/burger1.jpg'
+import product2 from '../../images/burger3.jpg'
+import product3 from '../../images/burger5.jpg'
 
 export const productData = [
     {img: product1, alt: 'burger', name:"Queen Burger", desc:'Bacon and cheese burger with lettuce, tomato, onions and pickles', price:'R89.99', button:'Add to Cart'},
